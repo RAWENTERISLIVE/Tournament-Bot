@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tournament Dashboard</title>
+</head>
+<body>
+    <h1>Tournaments</h1>
+    <ul>
+        <% tournaments.forEach(t => { %>
+            <li><b><%= t.name %></b> - <%= t.game %></li>
+        <% }); %>
+    </ul>
+</body>
+</html>
